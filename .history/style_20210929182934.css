@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap');
+html {
+    box-sizing: border-box;
+    width: 1920px;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.dark {
+    color: #FFFFFF;
+    background-color: #030303;
+}
+
+.background-welcome {
+    background-image: url(../images/monalisa.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 182px;
+}
+
+.welcome__title {
+    display: block;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    line-height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.welcome__text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+
+.welcome__btn {
+    width: 360px;
+    height: 75px;
+    background: #710707;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.visiting__title {
+    position: relative;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: $font-gold;
+    border-bottom: 3px solid #710707;
+}
+
+.visiting__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    left: 0;
+}
+
+
+.header {
+    background: ##030303;
+    height: 150px;
+}
+    .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .header__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__logo-link {
+        text-decoration: none;
+    }
+   
+
+h1 {
+    font-family: Forum;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    padding: 2px;
+    font-size: 28px;
+}
+.navbar {
+    font-size: 22px;
+    font-family: Roboto;
+}
+
+    .navbar__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar__item {
+        list-style: none;
+        letter-spacing: 2px;
+        
+    }
+    .navbar__link {
+        padding-right: 55px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    .navbar__link:hover,
+    &__link:active {
+        color: $font-gold;
+        
+    }
+}
+
+.frame {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 26px;
+    margin-right: 25px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap');
+html {
+    box-sizing: border-box;
+    width: 1920px;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.dark {
+    color: #FFFFFF;
+    background-color: #030303;
+}
+
+.background-welcome {
+    background-image: url(../images/monalisa.png);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 182px;
+}
+
+.welcome__title {
+    display: block;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    line-height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.welcome__text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+
+.welcome__btn {
+    width: 360px;
+    height: 75px;
+    background: $;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,63 @@
+.header {
+    background: $bg-dark;
+    height: 150px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo-link {
+        text-decoration: none;
+    }
+   
+}
+h1 {
+    font-family: Forum;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    padding: 2px;
+    font-size: 28px;
+}
+.navbar {
+    font-size: 22px;
+    font-family: Roboto;
+    
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        list-style: none;
+        letter-spacing: 2px;
+        
+    }
+    &__link {
+        padding-right: 55px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &__link:hover,
+    &__link:active {
+        color: $font-gold;
+        
+    }
+}
+
+.frame {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 26px;
+    margin-right: 25px;
+}

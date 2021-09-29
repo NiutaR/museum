@@ -1,0 +1,20 @@
+.visiting {
+    &__title {
+
+        position: relative;
+        font-family: Forum;
+        font-weight: 400;
+        font-size: 80px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: $font-gold;
+        border-bottom: 3px solid $dark-red;
+
+
+    }
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        left: 0;
+    }
+}

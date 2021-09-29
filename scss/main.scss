@@ -1,0 +1,40 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto&display=swap');
+//colors
+$bg-dark: #030303;
+$dark-red: #710707;
+$font-gold: #9d8665;
+
+//imports
+
+@import 'header';
+@import 'welcome';
+@import 'visiting';
+
+
+
+
+
+
+
+
+html {
+    box-sizing: border-box;
+    width: 1920px;
+    scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+section {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
